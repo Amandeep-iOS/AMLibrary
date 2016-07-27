@@ -1,16 +1,19 @@
 PODS:
   - AMLibrary (0.1.0)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - AMLibrary (from `../`)
+  - SwiftyJSON
 
 EXTERNAL SOURCES:
   AMLibrary:
     :path: ../
 
 SPEC CHECKSUMS:
-  AMLibrary: acf2d696aba98f8ee4bfd68353ad57f7d2f20cba
+  AMLibrary: 67ba323d0657c6f625ac0614400b37ec9bf43bed
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: ff921ed7183a6fa236f3a5459e9b201a2a833b32
+PODFILE CHECKSUM: fff42ef368fd49b02a5d1d0ffd72d2aac37614ad
 
 COCOAPODS: 1.0.1

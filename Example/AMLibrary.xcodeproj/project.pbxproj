@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10641A3039F7716EB67D93E2 /* Pods_AMLibrary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFFDAC6209665FA5562E9CD /* Pods_AMLibrary_Tests.framework */; };
+		129BBF491D489528000E96D1 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129BBF481D489528000E96D1 /* UserObject.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		0D119A288235C255234BF258 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0F96D58D0EC0AF0A8E01622D /* Pods-AMLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMLibrary_Example/Pods-AMLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		129BBF481D489528000E96D1 /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
 		261E674914A39C139AD1EEE3 /* Pods-AMLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMLibrary_Example/Pods-AMLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3F2EF1AF72D0C7812231C947 /* AMLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AMLibrary.podspec; path = ../AMLibrary.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AMLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		129BBF4A1D489853000E96D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				129BBF481D489528000E96D1 /* UserObject.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		5C43275F78E69923EE7824F0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 		607FACD21AFB9204008FA782 /* Example for AMLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				129BBF4A1D489853000E96D1 /* Models */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -361,6 +372,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				129BBF491D489528000E96D1 /* UserObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

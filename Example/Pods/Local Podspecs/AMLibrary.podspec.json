@@ -1,9 +1,9 @@
 {
   "name": "AMLibrary",
   "version": "0.1.0",
-  "summary": "A short description of AMLibrary.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AMLibrary",
+  "summary": "AMLibrary is created to reuse existing methods.",
+  "description": "AMLibrary provide easy access to reusable components to code faster.",
+  "homepage": "https://github.com/Amandeep-iOS/AMLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "amandps86@gmail.com": "amandps86@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AMLibrary.git",
+    "git": "https://github.com/Amandeep-iOS/AMLibrary.git",
     "tag": "0.1.0"
   },
   "platforms": {
